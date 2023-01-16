@@ -1,2 +1,2 @@
-# Pattern_Recognition_Project
+# Post-Processing of Cerebrovascular Models after DTF-skeletonization
  

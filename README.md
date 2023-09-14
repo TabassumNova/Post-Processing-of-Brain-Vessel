@@ -4,5 +4,8 @@ Computed tomography angiography (CTA) is the most popular imaging modality for d
 <img src="/images/img1.png"  width=50% height=50%>
 <img src="/images/img2.png"  width=50% height=50%>
 
+# Complete graph image using plotly
+
+
 # Solution to reconstruct the vessels
 <img src="/images/g1.gif"  width=30% height=30%><img src="/images/g2.gif"  width=30% height=30%>

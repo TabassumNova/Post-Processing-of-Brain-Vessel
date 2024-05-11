@@ -15,10 +15,20 @@ Thamm et al. [1] applied skeletonization as a part of their proposed fully autom
 <img src="/images/loops.png"  width=80% height=80%>
 
 # Feature extraction and Classification
+Type of loops: 
+* **Type-00**: These loops have exactly two nodes and two edges
+* **Type-01**: These loops have higher average node density and smaller total loop length.
+* **Type-02**: These loops have lower average node density and larger total loop length
 
+In order to eliminate these two types of loops, two different types of actions are needed to take. I designed a classifier to differentiate between these two groups. For this, I took two features:
+* **Average loop density**: Average density of the nodes within a loop by using kernel density estimator where kernel bandwidth = 10.
+* **Total loop length**: Total length of the edges within a loop.
+For classification, I used k-means clustering.
 <img src="/images/Classification006.png"  width=60% height=60%>
 
 # Solution to eliminate Type-01 loops
+As Type-01 loops are created from large vessels, here the main target was to merge all the loops and create edges that are aligned to the main direction of the vessel and have an enlarged radius.
+
 <img src="/images/g1.gif"  width=30% height=30%><img src="/images/g2.gif"  width=30% height=30%>
 
 # References

@@ -14,10 +14,11 @@ Thamm et al. [1] applied skeletonization as a part of their proposed fully autom
 
 <img src="/images/loops.png"  width=80% height=80%>
 
-# Feature extraction and Clustering
+# Feature extraction and Classification
 
+<img src="/images/Classification006.png"  width=60% height=60%>
 
-# Solution to reconstruct the vessels
+# Solution to eliminate Type-01 loops
 <img src="/images/g1.gif"  width=30% height=30%><img src="/images/g2.gif"  width=30% height=30%>
 
 # References

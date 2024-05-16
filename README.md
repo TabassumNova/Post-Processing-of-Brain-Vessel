@@ -4,6 +4,14 @@ Computed tomography angiography (CTA) is a popular modality of choice for detect
 <img src="/images/overview.png"  width=80% height=80%>
 <!-- <img src="/images/img2.png"  width=50% height=50%> -->
 
+# Requirements
+- Plotly
+- MeVisLab
+- Dash
+- numpy
+- scikit-learn
+- scipy
+
 # Data analysis and Visualization 
 <img src="/images/full.gif"  width=60% height=60%>
 
